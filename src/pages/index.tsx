@@ -25,7 +25,6 @@ const App = () => {
         </div>
         <MainHeroImage />
       </div>
-      <Canvas />
       <LazyShow>
         <>
           <Product />

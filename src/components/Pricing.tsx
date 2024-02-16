@@ -52,6 +52,14 @@ const Pricing = () => {
                 {firstPlan?.price}
                 <span className={`text-base`}> {firstPlan?.priceDetails}</span>
               </div>
+              <div className="rounded-md shadow">
+                <a
+                  href={pricing.primaryAction.href}
+                  className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+                >
+                  {pricing.primaryAction.text}
+                </a>
+              </div>
             </div>
           </div>
           <div
@@ -84,6 +92,14 @@ const Pricing = () => {
                 {secondPlan?.price}
                 <span className={`text-base`}> {secondPlan?.priceDetails}</span>
               </div>
+              <div className="rounded-md shadow">
+                <a
+                  href={pricing.primaryAction.href}
+                  className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+                >
+                  {pricing.primaryAction.text}
+                </a>
+              </div>
             </div>
           </div>
           <div
@@ -114,6 +130,14 @@ const Pricing = () => {
               >
                 {thirdPlan?.price}
                 <span className={`text-base`}> {thirdPlan?.priceDetails}</span>
+              </div>
+              <div className="rounded-md shadow">
+                <a
+                  href={pricing.secondaryAction.href}
+                  className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+                >
+                  {pricing.secondaryAction.text}
+                </a>
               </div>
             </div>
           </div>

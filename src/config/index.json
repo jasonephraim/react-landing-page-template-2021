@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/logo.svg"
   },
   "navigation": [
     {
@@ -23,70 +23,83 @@
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Try it out",
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Turn feature requirements into ",
+    "subtitle": "dev-ready tickets",
+    "description": "Our enterprise-grade contextual LLM automatically converts your high-level feature requirements, user stories, and testing criteria into sprint-ready developer tickets.",
+    "img": "/assets/images/b92913c5c02b117c9e10df94155c65c6.mp4",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Try it out",
       "href": "#"
     },
     "secondaryAction": {
-      "text": "Email us",
+      "text": "Book a demo",
       "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Hot GitStart works",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Share and slice your GitHub or GitLab repos",
+        "description": "Select which parts of your repos GitStart can access with GitSlice, our secure git-sharing tool. Share only what you want at all times, and keep your configuration file under your lock and key.",
+        "img": "/assets/images/product1.png"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Tell GitStart about your feature",
+        "description": "Requirements, additional context, UI elements, designs, acceptance criteria, testing scenarios, notes... the more information, the better.",
+        "img": "/assets/images/product2.png"
+      },
+      {
+        "title": "Tickets are automatically generated in Jira or Linear",
+        "description": "Watch as detailed, context-heavy tickets are populated in your project tracking software of choice. Never miss updating a dependency again. Best of all, GitStart learns and gains more context as it evolves in your codebase: improving results the more you use it. ",
+        "img": "/assets/images/product3.png"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Need some more help? ",
+    "subtitle": "Let our GitStart engineers turn your tickets into PRs",
+    "description": "We have a unique community of aspiring developers eager to take on new challenges and learn best practices in software development. It's as easy as assigning your Linear or Jira tickets to GitStart. Only pay for PRs you merge!  ",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "name": "Bugs and Tech Debt",
+        "description": "Eliminate long-standing bugs, safely upgrade packages and dependencies, and introduce linters (ESLint, TSLint)",
         "icon": "/assets/images/react.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "name": "Frontend Development",
+        "description": "Create or refactor UI/UX components, document design systems with Storybook, improve responsiveness, accessibility, and internationalization, and create interactive graphs and reporting",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "name": "Test Coverage",
+        "description": "Increase test coverage with unit tests or end-to-end tests, and introduce new testing libraries",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "name": "Backend Development",
+        "description": "CRUD operations on new or existing API endpoints, and CRUD operations on database schemas, models, and interfaces",
         "icon": "/assets/images/ts.png"
       }
     ]
   },
   "pricing": {
     "title": "Pricing",
+    "primaryAction": {
+      "text": "Try it out",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "Book a demo",
+      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+    },
     "items": [
       {
-        "name": "Free",
+        "name": "Free 7 Day Trial",
         "price": "$0",
         "priceDetails": "for one user",
         "features": [
@@ -99,10 +112,10 @@
       {
         "name": "Pro",
         "price": "$15",
-        "priceDetails": "per user",
+        "priceDetails": "per month",
 
         "features": [
-          "5 users",
+          "Up to 5 users",
           "Priority Support",
           "10 GB of storage",
           "Phone and Email support"
@@ -113,7 +126,7 @@
         "price": "$29",
         "priceDetails": "per user",
         "features": [
-          "50 users",
+          "Up to 50 users",
           "24/7 Support",
           "100 GB of storage",
           "Phone and Email support"
